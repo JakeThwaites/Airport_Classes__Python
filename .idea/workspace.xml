@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce342645-178b-413e-8908-753e624aec45" name="Default Changelist" comment="" />
+    <list default="true" id="ce342645-178b-413e-8908-753e624aec45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Airport.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirportTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/AirportTest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Plane.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -61,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AirportTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="358">
+              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -73,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Airport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -105,8 +108,8 @@
         <option value="$PROJECT_DIR$/FlightTest.py" />
         <option value="$PROJECT_DIR$/PlaneTest.py" />
         <option value="$PROJECT_DIR$/Passenger.py" />
-        <option value="$PROJECT_DIR$/Airport.py" />
         <option value="$PROJECT_DIR$/AirportTest.py" />
+        <option value="$PROJECT_DIR$/Airport.py" />
       </list>
     </option>
   </component>
@@ -160,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for AirportTest.TestAirport">
+  <component name="RunManager" selected="Python tests.Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space">
     <configuration name="Unittests for AirportTest.TestAirport" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,6 +175,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;AirportTest.TestAirport&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Airport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -217,27 +234,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PlaneTest.TestPlane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Airport" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PlaneTest.TestPlane&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space" />
         <item itemvalue="Python tests.Unittests for AirportTest.TestAirport" />
         <item itemvalue="Python tests.Unittests for AirportTest.TestAirport.test_can_sell_ticket_for_flight" />
         <item itemvalue="Python tests.Unittests for AirportTest.TestAirport.test_has_code" />
         <item itemvalue="Python tests.Unittests for AirportTest.TestAirport.test_starts_with_empty_hangar" />
-        <item itemvalue="Python tests.Unittests for PlaneTest.TestPlane" />
       </list>
     </recent_temporary>
   </component>
@@ -255,15 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_AirportTest_TestAirport - 2019.01.13 at 21h 47m 31s.xml">
-      <configuration name="Unittests for AirportTest.TestAirport" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AirportTest_TestAirport - 2019.01.13 at 21h 48m 53s.xml">
-      <configuration name="Unittests for AirportTest.TestAirport" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AirportTest_TestAirport - 2019.01.13 at 21h 49m 27s.xml">
-      <configuration name="Unittests for AirportTest.TestAirport" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_AirportTest_TestAirport - 2019.01.13 at 21h 50m 14s.xml">
       <configuration name="Unittests for AirportTest.TestAirport" configurationId="tests" />
     </history-entry>
@@ -284,6 +278,15 @@
     </history-entry>
     <history-entry file="Unittests_for_AirportTest_TestAirport - 2019.01.13 at 21h 58m 18s.xml">
       <configuration name="Unittests for AirportTest.TestAirport" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AirportTest_TestAirport_test_can_only_sell_ticket_if_enough_space - 2019.01.13 at 22h 14m 41s.xml">
+      <configuration name="Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AirportTest_TestAirport_test_can_only_sell_ticket_if_enough_space - 2019.01.13 at 22h 15m 29s.xml">
+      <configuration name="Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AirportTest_TestAirport_test_can_only_sell_ticket_if_enough_space - 2019.01.13 at 22h 16m 12s.xml">
+      <configuration name="Unittests for AirportTest.TestAirport.test_can_only_sell_ticket_if_enough_space" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -337,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flight.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -378,20 +374,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airport.py">
+    <entry file="file://$PROJECT_DIR$/Plane.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="165">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AirportTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="358">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>

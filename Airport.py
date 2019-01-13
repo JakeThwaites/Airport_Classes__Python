@@ -16,6 +16,7 @@ class Airport:
         flight.add_plane(plane)
 
     def sell_ticket(self, passenger, flight):
-        flight.plane.add_passenger(passenger)
-        passenger.buy_ticket()
+        if flight.plane.has_empty_seats():
+            flight.plane.add_passenger(passenger)
+            passenger.buy_ticket()
 
