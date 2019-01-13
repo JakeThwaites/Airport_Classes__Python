@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce342645-178b-413e-8908-753e624aec45" name="Default Changelist" comment="" />
+    <list default="true" id="ce342645-178b-413e-8908-753e624aec45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Passenger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassengerTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/PassengerTest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,26 +16,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Passenger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
+        <entry file="file://$PROJECT_DIR$/Plane.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlaneTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PassengerTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+              <caret selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,10 +60,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,6 +74,8 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Passenger.py" />
         <option value="$PROJECT_DIR$/PassengerTest.py" />
+        <option value="$PROJECT_DIR$/Plane.py" />
+        <option value="$PROJECT_DIR$/PlaneTest.py" />
       </list>
     </option>
   </component>
@@ -62,6 +85,7 @@
     <option name="width" value="1426" />
     <option name="height" value="863" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -105,8 +129,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for PassengerTest.TestPassenger.test_has_name">
-    <configuration name="Unittests for PassengerTest.TestInit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for PlaneTest.TestPlane.test_can_add_passenger">
+    <configuration name="Unittests for PassengerTest.TestPassenger.test_has_money" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,35 +140,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PassengerTest.TestInit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for PassengerTest.TestInit.test_has_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Airport" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PassengerTest.TestInit.test_has_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for PassengerTest.TestPassenger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Airport" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PassengerTest.TestPassenger&quot;" />
+      <option name="_new_target" value="&quot;PassengerTest.TestPassenger.test_has_money&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -162,7 +158,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in PassengerTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for PlaneTest.TestPlane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,17 +168,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/PassengerTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;PlaneTest.TestPlane&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for PlaneTest.TestPlane.test_can_add_passenger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Airport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PlaneTest.TestPlane.test_can_add_passenger&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for PlaneTest.TestPlane.test_starts_with_no_passengers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Airport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PlaneTest.TestPlane.test_starts_with_no_passengers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for PlaneTest.TestPlane.test_can_add_passenger" />
+        <item itemvalue="Python tests.Unittests for PlaneTest.TestPlane.test_starts_with_no_passengers" />
+        <item itemvalue="Python tests.Unittests for PlaneTest.TestPlane" />
+        <item itemvalue="Python tests.Unittests for PassengerTest.TestPassenger.test_has_money" />
         <item itemvalue="Python tests.Unittests for PassengerTest.TestPassenger.test_has_name" />
-        <item itemvalue="Python tests.Unittests for PassengerTest.TestPassenger" />
-        <item itemvalue="Python tests.Unittests for PassengerTest.TestInit" />
-        <item itemvalue="Python tests.Unittests for PassengerTest.TestInit.test_has_name" />
-        <item itemvalue="Python tests.Unittests in PassengerTest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -200,35 +224,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PassengerTest_py - 2019.01.13 at 17h 22m 47s.xml">
-      <configuration name="Unittests in PassengerTest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger - 2019.01.13 at 17h 37m 27s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 23m 33s.xml">
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 38m 18s.xml">
       <configuration name="Unittests for PassengerTest.TestPassenger.test_has_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestPassenger - 2019.01.13 at 17h 26m 37s.xml">
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 38m 55s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger.test_has_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger - 2019.01.13 at 17h 38m 58s.xml">
       <configuration name="Unittests for PassengerTest.TestPassenger" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestInit_test_has_name - 2019.01.13 at 17h 27m 44s.xml">
-      <configuration name="Unittests for PassengerTest.TestInit.test_has_name" configurationId="tests" />
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 39m 30s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger.test_has_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestInit_test_has_name - 2019.01.13 at 17h 29m 37s.xml">
-      <configuration name="Unittests for PassengerTest.TestInit.test_has_name" configurationId="tests" />
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 39m 36s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger.test_has_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestInit_test_has_name - 2019.01.13 at 17h 30m 08s.xml">
-      <configuration name="Unittests for PassengerTest.TestInit.test_has_name" configurationId="tests" />
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_name - 2019.01.13 at 17h 39m 54s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger.test_has_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestInit_test_has_name - 2019.01.13 at 17h 30m 32s.xml">
-      <configuration name="Unittests for PassengerTest.TestInit.test_has_name" configurationId="tests" />
+    <history-entry file="Unittests_for_PassengerTest_TestPassenger_test_has_money - 2019.01.13 at 17h 46m 13s.xml">
+      <configuration name="Unittests for PassengerTest.TestPassenger.test_has_money" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestPassenger - 2019.01.13 at 17h 30m 47s.xml">
-      <configuration name="Unittests for PassengerTest.TestPassenger" configurationId="tests" />
+    <history-entry file="Unittests_for_PlaneTest_TestPlane - 2019.01.13 at 18h 17m 08s.xml">
+      <configuration name="Unittests for PlaneTest.TestPlane" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestPassenger - 2019.01.13 at 17h 34m 09s.xml">
-      <configuration name="Unittests for PassengerTest.TestPassenger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PassengerTest_TestInit - 2019.01.13 at 17h 34m 14s.xml">
-      <configuration name="Unittests for PassengerTest.TestInit" configurationId="tests" />
+    <history-entry file="Unittests_for_PlaneTest_TestPlane_test_starts_with_no_passengers - 2019.01.13 at 18h 17m 54s.xml">
+      <configuration name="Unittests for PlaneTest.TestPlane.test_starts_with_no_passengers" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -271,15 +295,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Passenger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PassengerTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <caret selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
