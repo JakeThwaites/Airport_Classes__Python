@@ -3,6 +3,6 @@ class Passenger:
         self.name = name;
         self.money = money
 
-    def getName(self):
-        return self.name
+    def buy_ticket(self):
+        self.money -= 5
 
