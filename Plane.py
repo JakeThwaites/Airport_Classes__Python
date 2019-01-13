@@ -7,3 +7,6 @@ class Plane:
 
     def add_passenger(self, passenger):
         self.passengers.append(passenger)
+
+    def has_empty_seats(self):
+        return len(self.passengers) < self.max_passengers

@@ -2,9 +2,6 @@ import unittest
 
 from Passenger import Passenger
 from Plane import Plane
-from unittest import TestCase
-
-
 
 class TestPlane(unittest.TestCase):
     def setUp(self):
@@ -27,6 +24,14 @@ class TestPlane(unittest.TestCase):
         self.assertEqual(0, len(self.plane.passengers))
         self.plane.add_passenger(self.passenger)
         self.assertEqual(1, len(self.plane.passengers))
+
+    def test_can_show_empty_seats__true(self):
+        self.assertEqual(True, self.plane.has_empty_seats())
+
+    def test_can_show_empty_seats__false(self):
+        self.plane.add_passenger(self.passenger)
+        self.plane.add_passenger(self.passenger)
+        self.assertEqual(False, self.plane.has_empty_seats())
 
 if __name__ == '__main__':
     unittest.main()
